@@ -1,0 +1,35 @@
+When I recently changed my github's username (i know it's silly), I struggled a lot while pushing to the repo.
+
+Command --  [path to your git repository]>git push
+
+Error --
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+
+A Fix that worked for me :
+
+Command -- [path to your git repository]> git remote rm origin git remote add origin [repository's remote url]
+
+
+Then after this if you try :
+
+Command --  [path to your git repository]>git push
+
+Now if everything is working fine then it is good to go otherwise if you encounter the follwing error: 
+
+Error -- 
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+Then, for fixing this you can try: 
+
+Command -- [path to your git repository]>git push origin master --force
+
+After this, you sholud be able to push/pull the repo.
