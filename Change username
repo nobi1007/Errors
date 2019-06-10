@@ -25,11 +25,11 @@ Error --
 fatal: The current branch master has no upstream branch.
 To push the current branch and set the remote as upstream, use
 
-    git push --set-upstream origin master
+    git push --set-upstream origin master -f
 
 
 Then, for fixing this you can try: 
 
-Command -- [path to your git repository]>git push origin master --force
+Command -- [path to your git repository]>git push --set-upstream origin master -f
 
 After this, you sholud be able to push/pull the repo.
