@@ -33,3 +33,11 @@ Then, for fixing this you can try:
 Command -- [path to your git repository]>git push --set-upstream origin master -f
 
 After this, you sholud be able to push/pull the repo.
+
+
+                                             **********************************
+
+Source --
+
+1- https://teamtreehouse.com/community/i-got-permission-deniedpublickey-when-i-typed-git-push-origin-master
+2- https://github.com/rtyley/bfg-repo-cleaner/issues/29
