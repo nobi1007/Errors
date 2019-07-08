@@ -1,0 +1,6 @@
+I was not getting the layout preview, when i changed it's corresponding XML.
+The solution I found (which worked for me) on https://stackoverflow.com/questions/52520922/android-studio-3-1-4-does-not-show-layout-preview
+is changing the line at Project -> app -> src -> main -> res -> values -> styles.xml : 
+"<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">" 
+to 
+"<style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">"
