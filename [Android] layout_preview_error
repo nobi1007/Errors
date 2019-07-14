@@ -4,3 +4,17 @@ is changing the line at Project -> app -> src -> main -> res -> values -> styles
 "<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">" 
 to 
 "<style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">"
+
+
+Performing above steps doesn't do any good :(
+But another method (which is working) is to lower your sdk version and also versions of other related files by performing
+
+'''
+compileSdkVersion 28 -> 27
+targetSdkVersion 28 -> 27
+
+implementation 'com.android.support:appcompat-v7:28.0.0-alpha3' --> 27.1.1
+implementation 'com.android.support:design:28.0.0-alpha3' --> 27.1.1
+implementation 'com.android.support:cardview-v7:28.0.0-alpha3' --> 27.1.1
+'''
+(source) : https://stackoverflow.com/a/52521249
