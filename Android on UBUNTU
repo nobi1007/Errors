@@ -1,0 +1,8 @@
+Install Android on Ubuntu:
+https://medium.com/better-programming/install-android-studio-in-ubuntu-b8aed675849f
+
+Setting java environment variables in ubuntu:
+https://www.wikihow.com/Set-Up-Your-Java_Home-Path-in-Ubuntu
+
+For editing .bashrc file:
+gedit ~/.bashrc ('.' indicates that the file is hidden) (this is the file where we keep or create the environment variables).
