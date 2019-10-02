@@ -1,0 +1,5 @@
+Simple list of commands for successful installation of libraries for OpenCV (C++) in linux environment (Ubuntu)
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install libopencv-dev
